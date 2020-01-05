@@ -59,6 +59,11 @@ Sample output on not finding the matching password hash:
 
 ![image](https://user-images.githubusercontent.com/3501170/71777347-861f0080-2f96-11ea-8c10-9ed9a3f46179.png)
 
+![image](https://user-images.githubusercontent.com/3501170/71778346-b2da1480-2fa4-11ea-9257-f43d79a8bb91.png)
+
+![image](https://user-images.githubusercontent.com/3501170/71778368-dd2bd200-2fa4-11ea-8222-90bb9e6f8fe7.png)
+
+Detailed list can be seen here: https://xposedornot.com/xposed
 
 # Questions?
 
