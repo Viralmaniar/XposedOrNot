@@ -1,0 +1,6 @@
+hashlib
+urllib3
+io
+json
+requests
+pycryptodom
