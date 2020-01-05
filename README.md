@@ -27,10 +27,10 @@ Alright, the first element "anon" is added to all password hashes stored in XoN 
 
 The following table explains a bit more about the characteristics in simple terms :
 
-|Digits| 	Count of numbers|
-|Alphabets| Count of alphabets|
+|Digits       | 	Count of numbers      |
+|Alphabets    |  Count of alphabets    |
 |Special chars| 	Count of special chars|
-|Length| 	Length of the password|
+|Length       | 	Length of the password|
 
 The last one "count" denotes the number of times, this password was observed in the collected xposed data breaches. For a comprehensive list of all xposed websites, please visit Xposed websites-XoN.
 
