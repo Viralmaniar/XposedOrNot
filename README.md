@@ -19,7 +19,7 @@ pip install -r requirements.txt
 python XposedorNot.py
 </pre>
 
-# How to 
+# How to interpret an output?
 
 The output will consist of JSON output for easy reference. Primary reasons for giving an output in JSON instead of a yes/no is to ensure that this can be further used by people to develop and improve on the huge list of real time exposed passwords aggregated here.
 
@@ -51,6 +51,14 @@ Sample output on not finding the matching password hash:
   "Error": "Not found"
 }
 </pre>
+
+# Collected Passwords timeline - thanks to DevaOnBreaches
+![image](https://user-images.githubusercontent.com/3501170/71777306-d8abed00-2f95-11ea-9590-6b3bd1f84406.png)
+
+![image](https://user-images.githubusercontent.com/3501170/71777339-6a1b5f00-2f96-11ea-8bab-1f5b5a22c1b0.png)
+
+![image](https://user-images.githubusercontent.com/3501170/71777347-861f0080-2f96-11ea-8c10-9ed9a3f46179.png)
+
 
 # Questions?
 
