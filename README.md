@@ -12,12 +12,13 @@ This massive password collection is an accumulation of real passwords exposed in
 The collated passwords are hashed with a highly secure hashing algorithm SHA-3 ( Keccak-512 ), and stored in a one way hash for verification. No passwords are stored in plain text and the process of checking anonymously is explained in detail in our blog post, 850 million passwords for free explaining the technical and operational controls enforced for enhancing the security posture. Feel free to go through the same.
 
 # How to install?
-'''
-git clone https://github.com/Viralmaniar/Passhunt.git
-cd Passhunt
-pip3 install -r requirements.txt
-python3 Passhunt.py
-'''
+<pre>
+git clone https://github.com/Viralmaniar/XposedOrNot.git
+cd XposedOrNot
+pip install -r requirements.txt
+python XposedorNot.py
+<pre>
+
 # Credit
 XposedOrNot is maintained by DevaOnBreaches. Big thanks for  creating an API for your service. You can connect with him at https://www.devaonbreaches.com/
 
