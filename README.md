@@ -17,7 +17,7 @@ git clone https://github.com/Viralmaniar/XposedOrNot.git
 cd XposedOrNot
 pip install -r requirements.txt
 python XposedorNot.py
-<pre>
+</pre>
 
 # Questions?
 
