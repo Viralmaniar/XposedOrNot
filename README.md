@@ -27,6 +27,8 @@ Alright, the first element "anon" is added to all password hashes stored in XoN 
 
 The following table explains a bit more about the characteristics in simple terms :
 
+|Alphabet     | 	Description           |
+|------------ | 	--------------------  |
 |Digits       | 	Count of numbers      |
 |Alphabets    |  Count of alphabets    |
 |Special chars| 	Count of special chars|
