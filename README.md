@@ -19,6 +19,37 @@ pip install -r requirements.txt
 python XposedorNot.py
 </pre>
 
+# How to 
+
+The output will consist of JSON output for easy reference. Primary reasons for giving an output in JSON instead of a yes/no is to ensure that this can be further used by people to develop and improve on the huge list of real time exposed passwords aggregated here.
+
+Alright, the first element "anon" is added to all password hashes stored in XoN for enabling privacy conscious users to search as well. Second element "char" is a list of characteristics of the password, which can be further used for understanding the strength of the password to know if this will meet the requirements of applications in need. Many websites have policies on the use of selecting passwords based on number of characters, mixture of alphabets, numbers and special characters.
+
+The following table explains a bit more about the characteristics in simple terms :
+
+|Digits| 	Count of numbers|
+|Alphabets| Count of alphabets|
+|Special chars| 	Count of special chars|
+|Length| 	Length of the password|
+
+The last one "count" denotes the number of times, this password was observed in the collected xposed data breaches. For a comprehensive list of all xposed websites, please visit Xposed websites-XoN.
+
+Also, one another point to note is the use of Keccak-512 hashing for searching and storing data in XoN. Traditional hashing algorithms like MD5 and SHA1 are currently deprecated and also considering the enormous number of records exposed, I have gone ahead with Keccak-512 hashes.
+
+Yes, Keccak-512 is 128 characters long and it consumes more storage.
+
+Two sample Keccak-512 hashes given for easy reference:
+<B>
+test - 1e2e9fc2002b002d75198b7503210c05a1baac4560916a3c6d93bcce3a50d7f00fd395bf1647b9abb8d1afcc9c76c289b0c9383ba386a956da4b38934417789e
+pass - adf34f3e63a8e0bd2938f3e09ddc161125a031c3c86d06ec59574a5c723e7fdbe04c2c15d9171e05e90a9c822936185f12b9d7384b2bedb02e75c4c5fe89e4d4
+</B>
+Sample output on not finding the matching password hash:
+<pre>
+ {
+  "Error": "Not found"
+}
+</pre>
+
 # Questions?
 
 Twitter: [@ManiarViral](https://twitter.com/maniarviral) <BR>
